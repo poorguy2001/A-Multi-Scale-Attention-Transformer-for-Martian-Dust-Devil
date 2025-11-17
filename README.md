@@ -4,4 +4,8 @@ This repository contains the complete code and dataset used in the paper 《A Mu
 # Overview
 Detecting Martian dust devils remains a challenging task due to the scarcity of high-quality annotated data, significant variations in scale, blurred boundaries, and complex surface textures. To address these difficulties, we construct a cross-regional, manually annotated benchmark dataset named MDD-Human and propose a novel Transformer-based detection network, MDT (Mars Dust Devil Detection Transformer). The model adopts FasterNet as its backbone to ensure a balance between computational efficiency and feature extraction capability. A key innovation lies in the multi-scale attention fusion module, which incorporates hierarchical fusion strategies and hybrid attention mechanisms to effectively enhance the representation of dust devil features under diverse Martian terrains. In addition, we introduce a shape-aware localization loss function, SMIoU (Shape-Augmented Minimum Point Distance IoU), which improves geometric sensitivity by integrating corner distance constraints and structural shape priors. Experimental results on the MDD-Human dataset demonstrate that MDT achieves 92.7% Precision, 90.8% Recall, 92.4% mAP@50, and 91.8% F1-score, outperforming several classical and state-of-the-art detectors. Further tests on unseen THEMIS and CRISM datasets confirm the model’s strong cross-source generalization, highlighting its robustness and applicability in diverse Martian imaging scenarios.
 
-<img width="818" height="198" alt="ed159e2da988dc63b53738e3cba7f2b6" src="https://github.com/user-attachments/assets/5cbe1f7e-2ecd-4634-9866-afa5ffb99683" />
+# MDT network structure diagram
+
+
+# Dataset
+The dataset consists of 8,052 training samples, 2,206 validation samples, and 2,210 test samples.
