@@ -10,3 +10,5 @@ Detecting Martian dust devils remains a challenging task due to the scarcity of 
 
 # Dataset
 The dataset consists of 8,052 training samples, 2,206 validation samples, and 2,210 test samples.
+<img width="3600" height="3000" alt="fig10" src="https://github.com/user-attachments/assets/fd6269cc-db30-40ea-bb09-8d5c1af82478" />
+
