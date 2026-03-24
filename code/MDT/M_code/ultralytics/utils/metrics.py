@@ -194,7 +194,7 @@ class WIoU_Scale:
 
 def bbox_iou(box1, box2, xywh=True, GIoU=False, DIoU=False, CIoU=False, EIoU=False, SIoU=False, WIoU=False,
              ShapeIoU=False,
-             hw=1, mpdiou=False,smiou=False, Inner=False, Focaleriou=False, d=0.00, u=0.95, ratio=0.7, alpha=1,eps=1e-7, scale=0.0,beta=0.5#新增
+             hw=1, mpdiou=False,smiou=True, Inner=False, Focaleriou=False, d=0.00, u=0.95, ratio=0.7, alpha=1,eps=1e-7, scale=0.0,beta=0.5#新增
              ):
     """
     Calculate Intersection over Union (IoU) of box1(1, 4) to box2(n, 4).
